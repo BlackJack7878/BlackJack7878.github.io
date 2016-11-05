@@ -63,7 +63,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 3, ../sass/screen.scss */
+@font-face {
+  font-family: Bikinis;
+  src: local("Bikinis"), url(/fonts/Bikinis.ttf);
+}
+@font-face {
+  font-family: Rampung;
+  src: local("Rampung"), url(/fonts/Rampung.ttf);
+}
+/* line 4, ../sass/screen.scss */
 body, html {
   background-color: black;
   width: 100%;
@@ -72,14 +80,14 @@ body, html {
   background-attachment: fixed;
 }
 
-/* line 11, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 #content {
   position: relative;
   max-width: 940px;
   margin: 0 auto;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 #about {
   color: white;
   width: 40%;
@@ -87,32 +95,31 @@ body, html {
   z-index: 5;
   position: relative;
 }
-/* line 24, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 #about article {
   text-align: center;
-  padding-top: 650px;
-  padding-bottom: 650px;
+  padding-top: 600px;
+  padding-bottom: 600px;
 }
-/* line 29, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 #about article:first-child {
   margin-top: -360px;
 }
-/* line 33, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 #about article:last-child {
   padding-bottom: 350px;
 }
-/* line 37, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 #about article .header {
   padding-bottom: 10px;
   padding-top: 10px;
   color: #ff4d4d;
-  letter-spacing: 2px;
-  font: 30px Ariel;
+  font: 30px Bikinis;
   font-weight: bold;
 }
 /* line 46, ../sass/screen.scss */
 #about article .info {
-  letter-spacing: 1px;
+  font: 18px Rampung;
 }
 
 /* line 54, ../sass/screen.scss */

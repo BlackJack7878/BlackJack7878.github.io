@@ -1,4 +1,5 @@
 @import "compass/reset";
+@import "print";
 
 body, html {
 	background-color: black;
@@ -23,8 +24,8 @@ body, html {
 
 	article {
 		text-align: center;
-		padding-top: 650px;
-		padding-bottom: 650px;
+		padding-top: 600px;
+		padding-bottom: 600px;
 
 		&:first-child {
 			margin-top: -360px;
@@ -38,13 +39,12 @@ body, html {
 			padding-bottom: 10px;
 			padding-top: 10px;
 			color: #ff4d4d;
-			letter-spacing: 2px;
-			font: 30px Ariel;
-			font-weight: bold;;
+			font: 30px Bikinis;
+			font-weight: bold;
 		}
 
 		.info {
-			letter-spacing: 1px;
+			font: 18px Rampung;
 		}
 
 	}
