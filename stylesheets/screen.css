@@ -1,0 +1,266 @@
+/* line 5, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/screen.scss */
+body, html {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  background-image: url(/../img/Stars.jpg);
+  background-attachment: fixed;
+}
+
+/* line 11, ../sass/screen.scss */
+#content {
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* line 17, ../sass/screen.scss */
+#about {
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+  z-index: 5;
+  position: relative;
+}
+/* line 24, ../sass/screen.scss */
+#about article {
+  text-align: center;
+  padding-top: 650px;
+  padding-bottom: 650px;
+}
+/* line 29, ../sass/screen.scss */
+#about article:first-child {
+  margin-top: -360px;
+}
+/* line 33, ../sass/screen.scss */
+#about article:last-child {
+  padding-bottom: 350px;
+}
+/* line 37, ../sass/screen.scss */
+#about article .header {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #ff4d4d;
+  letter-spacing: 2px;
+  font: 30px Ariel;
+  font-weight: bold;
+}
+/* line 46, ../sass/screen.scss */
+#about article .info {
+  letter-spacing: 1px;
+}
+
+/* line 54, ../sass/screen.scss */
+#bg-3 {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  margin-left: -50%;
+  z-index: 4;
+}
+/* line 62, ../sass/screen.scss */
+#bg-3 #bg-3-1 {
+  position: absolute;
+  left: 1100px;
+  top: 160px;
+}
+/* line 68, ../sass/screen.scss */
+#bg-3 #bg-3-2 {
+  position: absolute;
+  top: 1000px;
+  left: 60px;
+}
+/* line 74, ../sass/screen.scss */
+#bg-3 #bg-3-3 {
+  position: absolute;
+  top: 1800px;
+  left: 1100px;
+}
+/* line 80, ../sass/screen.scss */
+#bg-3 #bg-3-4 {
+  position: absolute;
+  top: 2560px;
+  left: 0px;
+}
+/* line 86, ../sass/screen.scss */
+#bg-3 #bg-3-5 {
+  position: absolute;
+  top: 3250px;
+  left: -400px;
+}
+/* line 92, ../sass/screen.scss */
+#bg-3 #bg-3-6 {
+  position: absolute;
+  top: 4500px;
+  left: 950px;
+}
+/* line 98, ../sass/screen.scss */
+#bg-3 #bg-3-7 {
+  position: absolute;
+  top: 5200px;
+  left: 120px;
+}
+/* line 104, ../sass/screen.scss */
+#bg-3 #bg-3-8 {
+  position: absolute;
+  top: 6300px;
+  left: 700px;
+}
+/* line 110, ../sass/screen.scss */
+#bg-3 #bg-3-9 {
+  position: absolute;
+  top: 7000px;
+  left: 20px;
+}
+
+/* line 118, ../sass/screen.scss */
+#bg-2 {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  left: 50%;
+  margin-left: -50%;
+}
+/* line 126, ../sass/screen.scss */
+#bg-2 #bg-2-1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+/* line 132, ../sass/screen.scss */
+#bg-2 #bg-2-2 {
+  position: absolute;
+  top: 1200px;
+  left: 200px;
+}
+/* line 138, ../sass/screen.scss */
+#bg-2 #bg-2-3 {
+  position: absolute;
+  top: 2900px;
+  left: 800px;
+}
+/* line 144, ../sass/screen.scss */
+#bg-2 #bg-2-4 {
+  position: absolute;
+  top: 3500px;
+  left: -200px;
+}
+/* line 150, ../sass/screen.scss */
+#bg-2 #bg-2-5 {
+  position: absolute;
+  top: 1800px;
+  left: 200px;
+}
+/* line 156, ../sass/screen.scss */
+#bg-2 #bg-2-6 {
+  position: absolute;
+  top: 2200px;
+  left: 200px;
+}
+/* line 162, ../sass/screen.scss */
+#bg-2 #bg-2-7 {
+  position: absolute;
+  top: 4000px;
+  left: 200px;
+}
+/* line 168, ../sass/screen.scss */
+#bg-2 #bg-2-8 {
+  position: absolute;
+  top: 4800px;
+  left: -200px;
+}
+
+/* line 176, ../sass/screen.scss */
+#bg-1 {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  left: 50%;
+  margin-left: -50%;
+}
+/* line 184, ../sass/screen.scss */
+#bg-1 #bg-1-1 {
+  position: absolute;
+  top: 0;
+  left: -300px;
+}
+/* line 190, ../sass/screen.scss */
+#bg-1 #bg-1-2 {
+  position: absolute;
+  top: 1000px;
+  right: -300px;
+}
+/* line 196, ../sass/screen.scss */
+#bg-1 #bg-1-3 {
+  position: absolute;
+  top: 2000px;
+  left: 0px;
+}

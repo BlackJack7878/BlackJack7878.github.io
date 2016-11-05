@@ -1,0 +1,202 @@
+@import "compass/reset";
+
+body, html {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	background-image: url(/../img/Stars.jpg);
+	background-attachment: fixed;
+}
+
+#content {
+	position: relative;
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+#about {
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	z-index: 5;
+	position: relative;
+
+	article {
+		text-align: center;
+		padding-top: 650px;
+		padding-bottom: 650px;
+
+		&:first-child {
+			margin-top: -360px;
+		}
+
+		&:last-child {
+			padding-bottom: 350px;
+		}
+
+		.header {
+			padding-bottom: 10px;
+			padding-top: 10px;
+			color: #ff4d4d;
+			letter-spacing: 2px;
+			font: 30px Ariel;
+			font-weight: bold;;
+		}
+
+		.info {
+			letter-spacing: 1px;
+		}
+
+	}
+
+}
+
+#bg-3 {
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 100%;
+	margin-left: -50%;
+	z-index: 4;
+
+	#bg-3-1 {
+		position: absolute;
+		left: 1100px;
+		top: 160px;
+	}
+
+	#bg-3-2 {
+		position: absolute;
+		top: 1000px;
+		left: 60px;
+	}
+
+	#bg-3-3 {
+		position: absolute;
+		top: 1800px;
+		left: 1100px;
+	}
+
+	#bg-3-4 {
+		position: absolute;
+		top: 2560px;
+		left: 0px;
+	}
+
+	#bg-3-5 {
+		position: absolute;
+		top: 3250px;
+		left: -400px;
+	}
+
+	#bg-3-6 {
+		position: absolute;
+		top: 4500px;
+		left: 950px;
+	}
+
+	#bg-3-7 {
+		position: absolute;
+		top: 5200px;
+		left: 120px;
+	}
+
+	#bg-3-8 {
+		position: absolute;
+		top: 6300px;
+		left: 700px;
+	}
+
+	#bg-3-9 {
+		position: absolute;
+		top: 7000px;
+		left: 20px;
+	}
+
+}
+
+#bg-2 {
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	width: 100%;
+	left: 50%;
+	margin-left: -50%;
+
+	#bg-2-1 {
+		position: absolute;
+		top: 100px;
+		left: 200px;
+	}
+
+	#bg-2-2 {
+		position: absolute;
+		top: 1200px;
+		left: 200px;
+	}
+
+	#bg-2-3 {
+		position: absolute;
+		top: 2900px;
+		left: 800px;
+	}
+
+	#bg-2-4 {
+		position: absolute;
+		top: 3500px;
+		left: -200px;
+	}
+
+	#bg-2-5 {
+		position: absolute;
+		top: 1800px;
+		left: 200px;
+	}
+
+	#bg-2-6 {
+		position: absolute;
+		top: 2200px;
+		left: 200px;
+	}
+
+	#bg-2-7 {
+		position: absolute;
+		top: 4000px;
+		left: 200px;
+	}
+
+	#bg-2-8 {
+		position: absolute;
+		top: 4800px;
+		left: -200px;
+	}
+
+}
+
+#bg-1 {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	width: 100%;
+	left: 50%;
+	margin-left: -50%;
+
+	#bg-1-1 {
+		position: absolute;
+		top: 0;
+		left: -300px;
+	}
+
+	#bg-1-2 {
+		position: absolute;
+		top: 1000px;
+		right: -300px;
+	}
+
+	#bg-1-3 {
+		position: absolute;
+		top: 2000px;
+		left: 0px;
+	}
+
+}
